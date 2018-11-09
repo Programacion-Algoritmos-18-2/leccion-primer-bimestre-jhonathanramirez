@@ -2,9 +2,9 @@
 class Empleado:
 	def __init__(self):
         self.nombre = ""
-	    self.apellido = ""
-		self.cedula = ""
-		self.comision_fija = 0
+	self.apellido = ""
+	self.cedula = ""
+	self.comision_fija = 0
 	
 	def agregar_comision_fija (self , comision):
 		self.comision_fija = comision
